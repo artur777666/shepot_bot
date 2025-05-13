@@ -84,7 +84,14 @@ async def scheduled_tasks():
     whisper = random.choice(daily_whispers)
 
     try:
-            except Exception as e:
+            try:
+    await bot.send_message(user_id,
+        f"🌌 *Шёпот Жрицы:*\\n_{whisper}_\\n\\n— t.me/shepotzvezd_rus",
+        parse_mode="Markdown")
+except Exception as e:
+    print("Ошибка при отправке шёпота:", e)
+
+
         print("Ошибка при отправке в канал:", e)
 
     for user_id in user_data:
