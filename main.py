@@ -84,7 +84,7 @@ async def scheduled_tasks():
     whisper = random.choice(daily_whispers)
 
     try:
-            except Exception as e:
+try: except Exception as e:
         print("Ошибка при отправке в канал:", e)
 
     for user_id in user_data:
