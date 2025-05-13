@@ -4,7 +4,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import asyncio
 import random
 
-API_TOKEN = '7577091795:AAEYS5FeQHq1pJoQ1MQDsFHPgindn-t34fI'
+API_TOKEN = '7577091795:AAFyjugMQKVEV-D8AA-2ZTavvtk6lBJmaFU'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 scheduler = AsyncIOScheduler()
