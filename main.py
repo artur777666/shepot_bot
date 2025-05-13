@@ -6,7 +6,7 @@ import random
 from datetime import datetime
 from pytz import timezone
 
-API_TOKEN = '7577091795:AAGU_uZrXtpsvDX2gWSeMCyIXHE4uKwjcGw'
+API_TOKEN = '7577091795:AAF1TpsDBsE9yq4U7ZqZ8KAEnfi-XaHNQzQ'
 CHANNEL_ID = '@shepotzvezd_rus'
 
 bot = Bot(token=API_TOKEN)
